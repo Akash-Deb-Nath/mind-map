@@ -2,6 +2,8 @@
 
 This project is a dynamic mindmap visualization tool built with React. It allows users to explore hierarchical data, view node details, and edit nodes interactively.
 
+Live link: https://flourishing-klepon-14c635.netlify.app/
+
 ### Technologies Used
 
 - **HTML5 Canvas:** For rendering the mindmap nodes and connections efficiently.
