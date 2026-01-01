@@ -1,0 +1,168 @@
+{
+  "id": "root",
+  "title": "Vitamins in Human Body",
+  "summary": "Essential micronutrients for health",
+  "description": "Essential micronutrients required for normal metabolic function, growth, and overall health, typically obtained through diet. They are vital for diverse bodily processes, including energy production, immune defense, and cellular repair, playing a crucial role in preventing various diseases and maintaining overall well-being.",
+  "color": "#60A5FA",
+  "children": [
+    {
+      "id": "dietary",
+      "title": "Dietary Sources",
+      "summary": "Natural food sources of vitamins",
+      "description": "Vitamins are obtained from various dietary sources including fruits, vegetables, dairy products, meats, and fortified foods.",
+      "color": "#86EFAC",
+      "children": [
+        {
+          "id": "fruits",
+          "title": "Fruits & Vegetables",
+          "summary": "Rich in vitamins C, A, K",
+          "description": "Fresh produce provides essential vitamins.",
+          "color": "#FCD34D"
+        },
+        {
+          "id": "dairy",
+          "title": "Meat & Dairy",
+          "summary": "Source of B vitamins",
+          "description": "Animal products are excellent sources of B vitamins.",
+          "color": "#FCD34D"
+        },
+        {
+          "id": "grains",
+          "title": "Grains & Nuts",
+          "summary": "Fortified with vitamins",
+          "description": "Whole grains provide B vitamins and vitamin E.",
+          "color": "#FCD34D"
+        },
+        {
+          "id": "fortified",
+          "title": "Fortified & Enriched",
+          "summary": "Added vitamins",
+          "description": "Processed foods fortified with vitamins.",
+          "color": "#FCD34D"
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "title": "Health Impact & Balance",
+      "summary": "Effects on overall health",
+      "description": "Maintaining adequate vitamin levels is crucial, as both deficiencies (hypovitaminosis) and excesses (hypervitaminosis) can lead to health problems. These imbalances can manifest in a range of symptoms and conditions, significantly affecting long-term health and quality of life if not addressed.",
+      "color": "#86EFAC",
+      "children": [
+        {
+          "id": "deficiency",
+          "title": "Deficiency",
+          "summary": "Lack of essential vitamins",
+          "description": "Vitamin deficiencies can lead to serious conditions.",
+          "color": "#FCD34D"
+        },
+        {
+          "id": "excess",
+          "title": "Excess",
+          "summary": "Too much vitamin intake",
+          "description": "Excessive intake can cause toxicity.",
+          "color": "#FCD34D"
+        }
+      ]
+    },
+    {
+      "id": "roles",
+      "title": "Key Bodily Roles",
+      "summary": "Essential functions",
+      "description": "Vitamins play crucial roles in energy metabolism, immune function, bone health, and more.",
+      "color": "#86EFAC",
+      "children": [
+        {
+          "id": "antioxidant",
+          "title": "Antioxidant Protection",
+          "summary": "Protects cells",
+          "description": "Vitamins C and E protect from oxidative stress.",
+          "color": "#FCD34D"
+        },
+        {
+          "id": "bone",
+          "title": "Bone Health",
+          "summary": "Strong bones",
+          "description": "Vitamins D and K for bone mineralization.",
+          "color": "#FCD34D"
+        },
+        {
+          "id": "immune",
+          "title": "Immune System Support",
+          "summary": "Strengthens immunity",
+          "description": "Vitamins A, C, D support immune function.",
+          "color": "#FCD34D"
+        },
+        {
+          "id": "energy",
+          "title": "Energy Metabolism",
+          "summary": "Converts food",
+          "description": "B vitamins convert food to energy.",
+          "color": "#FCD34D"
+        }
+      ]
+    },
+    {
+      "id": "classification",
+      "title": "Vitamin Classification",
+      "summary": "Categories based on solubility",
+      "description": "Vitamins are primarily classified based on their solubility in fats or water, which dictates their absorption, storage, and excretion mechanisms in the body. This fundamental distinction influences dietary intake recommendations, potential for toxicity, and how they are utilized by different physiological systems.",
+      "color": "#86EFAC",
+      "children": [
+        {
+          "id": "fat-soluble",
+          "title": "Fat-Soluble Vitamins",
+          "summary": "Stored in body fat",
+          "description": "Vitamins A, D, E, K stored in liver and fatty tissues.",
+          "color": "#FCD34D",
+          "children": [
+            {
+              "id": "vitamin-a",
+              "title": "Vitamin A",
+              "summary": "Vision health",
+              "description": "Essential for vision and immune function.",
+              "color": "#DDA0DD"
+            },
+            {
+              "id": "vitamin-d",
+              "title": "Vitamin D",
+              "summary": "Bone health",
+              "description": "Crucial for calcium absorption.",
+              "color": "#DDA0DD"
+            },
+            {
+              "id": "vitamin-k",
+              "title": "Vitamin K",
+              "summary": "Blood clotting",
+              "description": "Essential for blood clotting.",
+              "color": "#DDA0DD"
+            }
+          ]
+        },
+        {
+          "id": "water-soluble",
+          "title": "Water-Soluble Vitamins",
+          "summary": "Regular intake needed",
+          "description": "B-complex and vitamin C dissolve in water.",
+          "color": "#FCD34D",
+          "children": [
+            {
+              "id": "vitamin-c",
+              "title": "Vitamin C",
+              "summary": "Immune support",
+              "description": "Important for immune function.",
+              "color": "#DDA0DD"
+            },
+            {
+              "id": "b-complex",
+              "title": "B-Complex Vitamins",
+              "summary": "Energy",
+              "description": "Essential for energy metabolism.",
+              "color": "#DDA0DD"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
